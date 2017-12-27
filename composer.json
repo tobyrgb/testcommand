@@ -7,5 +7,19 @@
             "email": "toby@z4net.com"
         }
     ],
-    "require": {}
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Z4net\\PatternGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "component": "package",
+        "laravel": {
+            "providers": [
+                "Z4net\\PatternGenerator\\PatternServiceProvider"
+            ]
+        }
+    }
 }

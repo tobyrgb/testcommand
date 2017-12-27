@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Z4net\PatternGenerator;
 
 use Illuminate\Support\ServiceProvider;
 use Z4net\PatternGenerator\Commands\MakePattern;
