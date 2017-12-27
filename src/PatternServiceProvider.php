@@ -30,6 +30,9 @@ class PatternServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->singleton('command.service.make', function ($app) {
+            return new MakeService();
+        });
+        $this->commands(['command.service.make']);
     }
 }
