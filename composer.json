@@ -1,0 +1,11 @@
+{
+    "name": "z4net/pattern-generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toby Wu",
+            "email": "toby@z4net.com"
+        }
+    ],
+    "require": {}
+}
